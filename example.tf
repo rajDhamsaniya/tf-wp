@@ -76,7 +76,7 @@ resource "aws_instance" "example" {
       "cd tf-wp",
       "chmod +100 docker-install.sh",
       "sudo ./docker-install.sh",
-      "sudo docker-compose -d up"
+      "sudo docker-compose up -d"
     ]
   }
 }
